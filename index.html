@@ -1,819 +1,809 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Colo Shop</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Colo Shop Template">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+  <title>UniClub - Free eCommerce T-Shirt Store HTML Website Template</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/vendor.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Jost:wght@400;600;700&display=swap"
+  rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="super_container">
-
-	<!-- Header -->
-
-	<header class="header trans_300">
-
-		<!-- Top Navigation -->
-
-		<div class="top_nav">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="top_nav_left">free shipping on all u.s orders over $50</div>
-					</div>
-					<div class="col-md-6 text-right">
-						<div class="top_nav_right">
-							<ul class="top_nav_menu">
-
-								<!-- Currency / Language / My Account -->
-
-								<li class="currency">
-									<a href="#">
-										usd
-										<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="currency_selection">
-										<li><a href="#">cad</a></li>
-										<li><a href="#">aud</a></li>
-										<li><a href="#">eur</a></li>
-										<li><a href="#">gbp</a></li>
-									</ul>
-								</li>
-								<li class="language">
-									<a href="#">
-										English
-										<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="language_selection">
-										<li><a href="#">French</a></li>
-										<li><a href="#">Italian</a></li>
-										<li><a href="#">German</a></li>
-										<li><a href="#">Spanish</a></li>
-									</ul>
-								</li>
-								<li class="account">
-									<a href="#">
-										My Account
-										<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="account_selection">
-										<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-										<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Main Navigation -->
-
-		<div class="main_nav_container">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-right">
-						<div class="logo_container">
-							<a href="#">colo<span>shop</span></a>
-						</div>
-						<nav class="navbar">
-							<ul class="navbar_menu">
-								<li><a href="#">home</a></li>
-								<li><a href="#">shop</a></li>
-								<li><a href="#">promotion</a></li>
-								<li><a href="#">pages</a></li>
-								<li><a href="#">blog</a></li>
-								<li><a href="contact.html">contact</a></li>
-							</ul>
-							<ul class="navbar_user">
-								<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-								<li class="checkout">
-									<a href="#">
-										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-										<span id="checkout_items" class="checkout_items">2</span>
-									</a>
-								</li>
-							</ul>
-							<div class="hamburger_container">
-								<i class="fa fa-bars" aria-hidden="true"></i>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</header>
-
-	<div class="fs_menu_overlay"></div>
-	<div class="hamburger_menu">
-		<div class="hamburger_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-		<div class="hamburger_menu_content text-right">
-			<ul class="menu_top_nav">
-				<li class="menu_item has-children">
-					<a href="#">
-						usd
-						<i class="fa fa-angle-down"></i>
-					</a>
-					<ul class="menu_selection">
-						<li><a href="#">cad</a></li>
-						<li><a href="#">aud</a></li>
-						<li><a href="#">eur</a></li>
-						<li><a href="#">gbp</a></li>
-					</ul>
-				</li>
-				<li class="menu_item has-children">
-					<a href="#">
-						English
-						<i class="fa fa-angle-down"></i>
-					</a>
-					<ul class="menu_selection">
-						<li><a href="#">French</a></li>
-						<li><a href="#">Italian</a></li>
-						<li><a href="#">German</a></li>
-						<li><a href="#">Spanish</a></li>
-					</ul>
-				</li>
-				<li class="menu_item has-children">
-					<a href="#">
-						My Account
-						<i class="fa fa-angle-down"></i>
-					</a>
-					<ul class="menu_selection">
-						<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-						<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-					</ul>
-				</li>
-				<li class="menu_item"><a href="#">home</a></li>
-				<li class="menu_item"><a href="#">shop</a></li>
-				<li class="menu_item"><a href="#">promotion</a></li>
-				<li class="menu_item"><a href="#">pages</a></li>
-				<li class="menu_item"><a href="#">blog</a></li>
-				<li class="menu_item"><a href="#">contact</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<!-- Slider -->
-
-	<div class="main_slider" style="background-image:url(images/slider_1.jpg)">
-		<div class="container fill_height">
-			<div class="row align-items-center fill_height">
-				<div class="col">
-					<div class="main_slider_content">
-						<h6>Spring / Summer Collection 2017</h6>
-						<h1>Get up to 30% Off New Arrivals</h1>
-						<div class="red_button shop_now_button"><a href="#">shop now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Banner -->
-
-	<div class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/banner_1.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">women's</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/banner_2.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">accessories's</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/banner_3.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">men's</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- New Arrivals -->
-
-	<div class="new_arrivals">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_title new_arrivals_title">
-						<h2>New Arrivals</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row align-items-center">
-				<div class="col text-center">
-					<div class="new_arrivals_sorting">
-						<ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked" data-filter="*">all</li>
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">women's</li>
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".accessories">accessories</li>
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".men">men's</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
-
-						<!-- Product 1 -->
-
-						<div class="product-item men">
-							<div class="product discount product_filter">
-								<div class="product_image">
-									<img src="images/product_1.png" alt="">
-								</div>
-								<div class="favorite favorite_left"></div>
-								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-									<div class="product_price">$520.00<span>$590.00</span></div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 2 -->
-
-						<div class="product-item women">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_2.png" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-									<div class="product_price">$610.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 3 -->
-
-						<div class="product-item women">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_3.png" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-									<div class="product_price">$120.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 4 -->
-
-						<div class="product-item accessories">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_4.png" alt="">
-								</div>
-								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
-								<div class="favorite favorite_left"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-									<div class="product_price">$410.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 5 -->
-
-						<div class="product-item women men">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_5.png" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Pryma Headphones, Rose Gold & Grey</a></h6>
-									<div class="product_price">$180.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 6 -->
-
-						<div class="product-item accessories">
-							<div class="product discount product_filter">
-								<div class="product_image">
-									<img src="images/product_6.png" alt="">
-								</div>
-								<div class="favorite favorite_left"></div>
-								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="#single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-									<div class="product_price">$520.00<span>$590.00</span></div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 7 -->
-
-						<div class="product-item women">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_7.png" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-									<div class="product_price">$610.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 8 -->
-
-						<div class="product-item accessories">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_8.png" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-									<div class="product_price">$120.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 9 -->
-
-						<div class="product-item men">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_9.png" alt="">
-								</div>
-								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
-								<div class="favorite favorite_left"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-									<div class="product_price">$410.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-
-						<!-- Product 10 -->
-
-						<div class="product-item men">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="images/product_10.png" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Pryma Headphones, Rose Gold & Grey</a></h6>
-									<div class="product_price">$180.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Deal of the week -->
-
-	<div class="deal_ofthe_week">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="deal_ofthe_week_img">
-						<img src="images/deal_ofthe_week.png" alt="">
-					</div>
-				</div>
-				<div class="col-lg-6 text-right deal_ofthe_week_col">
-					<div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
-						<div class="section_title">
-							<h2>Deal Of The Week</h2>
-						</div>
-						<ul class="timer">
-							<li class="d-inline-flex flex-column justify-content-center align-items-center">
-								<div id="day" class="timer_num">03</div>
-								<div class="timer_unit">Day</div>
-							</li>
-							<li class="d-inline-flex flex-column justify-content-center align-items-center">
-								<div id="hour" class="timer_num">15</div>
-								<div class="timer_unit">Hours</div>
-							</li>
-							<li class="d-inline-flex flex-column justify-content-center align-items-center">
-								<div id="minute" class="timer_num">45</div>
-								<div class="timer_unit">Mins</div>
-							</li>
-							<li class="d-inline-flex flex-column justify-content-center align-items-center">
-								<div id="second" class="timer_num">23</div>
-								<div class="timer_unit">Sec</div>
-							</li>
-						</ul>
-						<div class="red_button deal_ofthe_week_button"><a href="#">shop now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Best Sellers -->
-
-	<div class="best_sellers">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_title new_arrivals_title">
-						<h2>Best Sellers</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<div class="product_slider_container">
-						<div class="owl-carousel owl-theme product_slider">
-
-							<!-- Slide 1 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item">
-									<div class="product discount">
-										<div class="product_image">
-											<img src="images/product_1.png" alt="">
-										</div>
-										<div class="favorite favorite_left"></div>
-										<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-											<div class="product_price">$520.00<span>$590.00</span></div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 2 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item women">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_2.png" alt="">
-										</div>
-										<div class="favorite"></div>
-										<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-											<div class="product_price">$610.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 3 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item women">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_3.png" alt="">
-										</div>
-										<div class="favorite"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-											<div class="product_price">$120.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 4 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item accessories">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_4.png" alt="">
-										</div>
-										<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
-										<div class="favorite favorite_left"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-											<div class="product_price">$410.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 5 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item women men">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_5.png" alt="">
-										</div>
-										<div class="favorite"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Pryma Headphones, Rose Gold & Grey</a></h6>
-											<div class="product_price">$180.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 6 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item accessories">
-									<div class="product discount">
-										<div class="product_image">
-											<img src="images/product_6.png" alt="">
-										</div>
-										<div class="favorite favorite_left"></div>
-										<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-											<div class="product_price">$520.00<span>$590.00</span></div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 7 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item women">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_7.png" alt="">
-										</div>
-										<div class="favorite"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-											<div class="product_price">$610.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 8 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item accessories">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_8.png" alt="">
-										</div>
-										<div class="favorite"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-											<div class="product_price">$120.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 9 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item men">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_9.png" alt="">
-										</div>
-										<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
-										<div class="favorite favorite_left"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-											<div class="product_price">$410.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 10 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item men">
-									<div class="product">
-										<div class="product_image">
-											<img src="images/product_10.png" alt="">
-										</div>
-										<div class="favorite"></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Pryma Headphones, Rose Gold & Grey</a></h6>
-											<div class="product_price">$180.00</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Slider Navigation -->
-
-						<div class="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">
-							<i class="fa fa-chevron-left" aria-hidden="true"></i>
-						</div>
-						<div class="product_slider_nav_right product_slider_nav d-flex align-items-center justify-content-center flex-column">
-							<i class="fa fa-chevron-right" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Benefit -->
-
-	<div class="benefit">
-		<div class="container">
-			<div class="row benefit_row">
-				<div class="col-lg-3 benefit_col">
-					<div class="benefit_item d-flex flex-row align-items-center">
-						<div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
-						<div class="benefit_content">
-							<h6>free shipping</h6>
-							<p>Suffered Alteration in Some Form</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 benefit_col">
-					<div class="benefit_item d-flex flex-row align-items-center">
-						<div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
-						<div class="benefit_content">
-							<h6>cach on delivery</h6>
-							<p>The Internet Tend To Repeat</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 benefit_col">
-					<div class="benefit_item d-flex flex-row align-items-center">
-						<div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
-						<div class="benefit_content">
-							<h6>45 days return</h6>
-							<p>Making it Look Like Readable</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 benefit_col">
-					<div class="benefit_item d-flex flex-row align-items-center">
-						<div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
-						<div class="benefit_content">
-							<h6>opening all week</h6>
-							<p>8AM - 09PM</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Blogs -->
-
-	<div class="blogs">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_title">
-						<h2>Latest Blogs</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row blogs_container">
-				<div class="col-lg-4 blog_item_col">
-					<div class="blog_item">
-						<div class="blog_background" style="background-image:url(images/blog_1.jpg)"></div>
-						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-							<h4 class="blog_title">Here are the trends I see coming this fall</h4>
-							<span class="blog_meta">by admin | dec 01, 2017</span>
-							<a class="blog_more" href="#">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 blog_item_col">
-					<div class="blog_item">
-						<div class="blog_background" style="background-image:url(images/blog_2.jpg)"></div>
-						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-							<h4 class="blog_title">Here are the trends I see coming this fall</h4>
-							<span class="blog_meta">by admin | dec 01, 2017</span>
-							<a class="blog_more" href="#">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 blog_item_col">
-					<div class="blog_item">
-						<div class="blog_background" style="background-image:url(images/blog_3.jpg)"></div>
-						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-							<h4 class="blog_title">Here are the trends I see coming this fall</h4>
-							<span class="blog_meta">by admin | dec 01, 2017</span>
-							<a class="blog_more" href="#">Read more</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Newsletter -->
-
-	<div class="newsletter">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
-						<h4>Newsletter</h4>
-						<p>Subscribe to our newsletter and get 20% off your first purchase</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<form action="post">
-						<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
-							<input id="newsletter_email" type="email" placeholder="Your email" required="required" data-error="Valid email is required.">
-							<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">subscribe</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
-						<ul class="footer_nav">
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="contact.html">Contact us</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="footer_nav_container">
-						<div class="cr">©2018 All Rights Reserverd. Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a> &amp; distributed by <a href="https://themewagon.com">ThemeWagon</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-</div>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="link" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M12 19a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0-4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm-5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm7-12h-1V2a1 1 0 0 0-2 0v1H8V2a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V6a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V5h8v1a1 1 0 0 0 2 0V5h1a1 1 0 0 1 1 1ZM7 15a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-right" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="category" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="calendar" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="heart" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M20.16 4.61A6.27 6.27 0 0 0 12 4a6.27 6.27 0 0 0-8.16 9.48l7.45 7.45a1 1 0 0 0 1.42 0l7.45-7.45a6.27 6.27 0 0 0 0-8.87Zm-1.41 7.46L12 18.81l-6.75-6.74a4.28 4.28 0 0 1 3-7.3a4.25 4.25 0 0 1 3 1.25a1 1 0 0 0 1.42 0a4.27 4.27 0 0 1 6 6.05Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="plus" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 11h-6V5a1 1 0 0 0-2 0v6H5a1 1 0 0 0 0 2h6v6a1 1 0 0 0 2 0v-6h6a1 1 0 0 0 0-2Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="minus" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M19 11H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="cart" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M8.5 19a1.5 1.5 0 1 0 1.5 1.5A1.5 1.5 0 0 0 8.5 19ZM19 16H7a1 1 0 0 1 0-2h8.491a3.013 3.013 0 0 0 2.885-2.176l1.585-5.55A1 1 0 0 0 19 5H6.74a3.007 3.007 0 0 0-2.82-2H3a1 1 0 0 0 0 2h.921a1.005 1.005 0 0 1 .962.725l.155.545v.005l1.641 5.742A3 3 0 0 0 7 18h12a1 1 0 0 0 0-2Zm-1.326-9l-1.22 4.274a1.005 1.005 0 0 1-.963.726H8.754l-.255-.892L7.326 7ZM16.5 19a1.5 1.5 0 1 0 1.5 1.5a1.5 1.5 0 0 0-1.5-1.5Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="check" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M18.71 7.21a1 1 0 0 0-1.42 0l-7.45 7.46l-3.13-3.14A1 1 0 1 0 5.29 13l3.84 3.84a1 1 0 0 0 1.42 0l8.16-8.16a1 1 0 0 0 0-1.47Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="trash" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M10 18a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1ZM20 6h-4V5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H4a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2ZM10 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm7 14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8h10Zm-3-1a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="star-outline" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+          d="M7.5 9.804L5.337 11l.413-2.533L4 6.674l2.418-.37L7.5 4l1.082 2.304l2.418.37l-1.75 1.793L9.663 11L7.5 9.804Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="star-solid" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="search" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="user" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M15.71 12.71a6 6 0 1 0-7.42 0a10 10 0 0 0-6.22 8.18a1 1 0 0 0 2 .22a8 8 0 0 1 15.9 0a1 1 0 0 0 1 .89h.11a1 1 0 0 0 .88-1.1a10 10 0 0 0-6.25-8.19ZM12 12a4 4 0 1 1 4-4a4 4 0 0 1-4 4Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z" />
+      </symbol>
+
+    </defs>
+  </svg>
+
+  <div class="preloader-wrapper">
+    <div class="preloader">
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
+    <div class="offcanvas-header justify-content-center">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-4">
+          <span class="text-primary">Your cart</span>
+          <span class="badge bg-primary rounded-circle pt-2">3</span>
+        </h4>
+
+        <ul class="list-group mb-4">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Grey Hoodie</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$120</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Graphic T-Shirt</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$80</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Black T-Shirt</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$50</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span class="fw-bold">Total (USD)</span>
+            <strong>$250</strong>
+          </li>
+        </ul>
+
+        <button class="w-100 btn btn-dark" type="submit">Continue to checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasSearch"
+    aria-labelledby="Search">
+    <div class="offcanvas-header justify-content-center">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <div class="order-md-last">
+        <h4 class="text-primary text-uppercase mb-3">
+          Search
+        </h4>
+        <div class="search-bar border rounded-2 border-dark-subtle">
+          <form id="search-form" class="text-center d-flex align-items-center" action="" method="">
+            <input type="text" class="form-control border-0 bg-transparent" placeholder="Search Here" />
+            <iconify-icon icon="tabler:search" class="fs-4 me-3"></iconify-icon>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="main-menu d-flex navbar fixed-top navbar-expand-lg py-4 ">
+    <div class="container">
+      <div class="main-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="img-fluid">
+        </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <div class="offcanvas-header justify-content-center">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body justify-content-between">
+
+          <ul class="navbar-nav menu-list list-unstyled d-flex gap-md-3 ps-lg-5 mb-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mx-2 active">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle" role="button" id="pages" data-bs-toggle="dropdown"
+                aria-expanded="false">Pages</a>
+              <ul class="dropdown-menu" aria-labelledby="pages">
+                <li><a href="about.html" class="dropdown-item">About Us<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="shop.html" class="dropdown-item">Shop<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="single-product.html" class="dropdown-item">Single Product<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="cart.html" class="dropdown-item">Cart<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="wishlist.html" class="dropdown-item">Wishlist<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="checkout.html" class="dropdown-item">Checkout<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="blog.html" class="dropdown-item">Blog<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="single-post.html" class="dropdown-item">Single Post<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="contact.html" class="dropdown-item">Contact<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="faqs.html" class="dropdown-item">FAQs<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="account.html" class="dropdown-item">Account<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="thank-you.html" class="dropdown-item">Thankyou<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="error.html" class="dropdown-item">Error 404<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+                <li><a href="styles.html" class="dropdown-item">Styles<span
+                      class="badge bg-secondary-subtle text-dark ms-2">PRO</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link mx-2">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link mx-2">T-Shirts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link mx-2">Hoodies</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://templatesjungle.gumroad.com/l/uniclub-t-shirt-bootstrap5-eCommerce-website-template" class="nav-link mx-2" target="_blank">GET PRO</a>
+            </li>
+          </ul>
+
+          <div class="d-none d-lg-flex align-items-end">
+            <ul class="d-flex justify-content-end list-unstyled m-0">
+              <li>
+                <a href="account.html" class="mx-3">
+                  <iconify-icon icon="healthicons:person" class="fs-4"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <a href="wishlist.html" class="mx-3">
+                  <iconify-icon icon="mdi:heart" class="fs-4"></iconify-icon>
+                </a>
+              </li>
+
+              <li class="">
+                <a href="#" class="mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
+                  aria-controls="offcanvasCart">
+                  <iconify-icon icon="mdi:cart" class="fs-4 position-relative"></iconify-icon>
+                  <span class="position-absolute translate-middle badge rounded-circle bg-primary">
+                    03
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+                  aria-controls="offcanvasSearch">
+                  <iconify-icon icon="tabler:search" class="fs-4"></iconify-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="container d-lg-none">
+      <div class="d-flex  align-items-end mt-3">
+        <ul class="d-flex justify-content-end list-unstyled m-0">
+          <li>
+            <a href="account.html" class="me-4">
+              <iconify-icon icon="healthicons:person" class="fs-4 me-2"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <a href="wishlist.html" class="me-4">
+              <iconify-icon icon="mdi:heart" class="fs-4 me-2"></iconify-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="me-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
+              aria-controls="offcanvasCart">
+              <iconify-icon icon="mdi:cart" class="fs-4 me-2 position-relative"></iconify-icon>
+              <span class="position-absolute translate-middle badge rounded-circle bg-primary">
+                03
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="me-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+              aria-controls="offcanvasSearch">
+              <iconify-icon icon="tabler:search" class="fs-4 me-2"></iconify-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" style="background-image:url(images/banner-img1.jpg);">
+    <div class="container padding-large">
+      <div class="row">
+        <div class="col-md-6 col-lg-5 offset-md-2 text-center bg-black p-5">
+          <h2 class="display-1 banner-text text-uppercase text-white mt-3">Street Wears</h2>
+          <p class="text-uppercase text-white mb-4">High quality cool tshirts for street fashion</p>
+          <a href="#" class="btn btn-outline-light btn-wrap">
+            Start Shopping <i class="icon icon-arrow-io fs-5 align-text-bottom"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="padding-medium">
+    <div class="container">
+      <div class="row g-md-5 pt-4">
+        <div class="col-md-3 my-3">
+          <div class="card">
+            <div>
+              <iconify-icon class="service-icon text-primary fs-2" icon="ci:shopping-cart-02"></iconify-icon>
+            </div>
+            <h4 class="py-2 m-0">Free Delivery</h3>
+              <div class="card-text">
+                <p class="blog-paragraph fs-6">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 my-3">
+          <div class="card">
+            <div>
+              <iconify-icon class="service-icon text-primary fs-2" icon="tdesign:secured"></iconify-icon>
+            </div>
+            <h4 class="py-2 m-0">100% secure payment</h3>
+              <div class="card-text">
+                <p class="blog-paragraph fs-6">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 my-3">
+          <div class="card">
+            <div>
+              <iconify-icon class="service-icon text-primary fs-2" icon="la:award"></iconify-icon>
+            </div>
+            <h4 class="py-2 m-0">Quality guarantee</h3>
+              <div class="card-text">
+                <p class="blog-paragraph fs-6">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 my-3">
+          <div class="card">
+            <div>
+              <iconify-icon class="service-icon text-primary fs-2" icon="solar:dollar-outline"></iconify-icon>
+            </div>
+            <h4 class="py-2 m-0">Daily Offer</h3>
+              <div class="card-text">
+                <p class="blog-paragraph fs-6">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="new-arrival" class="product-store">
+    <div class="container">
+      <h2 class="display-5 fw-light text-uppercase text-center mb-5">New Arrivals</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="product-item">
+            <div class="image-holder" style="width: 100%; height: 100%;">
+              <img src="images/item1.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="z-1 position-absolute rounded-3 m-3 px-3 border border-dark-subtle">
+            New
+          </div>
+          <div class="product-item">
+            <div class="image-holder">
+              <img src="images/item2.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="product-item">
+            <div class="image-holder">
+              <img src="images/item3.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="z-1 position-absolute rounded-3 m-3 px-3 border border-dark-subtle">
+            Sale
+          </div>
+          <div class="product-item">
+            <div class="image-holder">
+              <img src="images/item4.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="product-item">
+            <div class="image-holder">
+              <img src="images/item1.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="product-item">
+            <div class="image-holder">
+              <img src="images/item2.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="product-item">
+            <div class="z-1 position-absolute rounded-3 m-3 px-3 border border-dark-subtle">
+              Sold
+            </div>
+            <div class="image-holder">
+              <img src="images/item3.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-4">
+          <div class="product-item">
+            <div class="image-holder">
+              <img src="images/item4.jpg" alt="Books" class="product-image img-fluid">
+            </div>
+            <div class="cart-concern">
+              <div class="cart-button d-flex justify-content-between align-items-center">
+                <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">add to cart <i
+                    class="icon icon-arrow-io pe-1"></i>
+                </a>
+                <a href="single-product.html" class="view-btn">
+                  <i class="icon icon-screen-full"></i>
+                </a>
+                <a href="#" class="wishlist-btn">
+                  <i class="icon icon-heart"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product-detail d-flex justify-content-between align-items-center mt-4">
+              <h4 class="product-title mb-0">
+                <a href="single-product.html">Seven Zero Five</a>
+              </h4>
+              <p class="m-0 fs-5 fw-normal">$40.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5 pt-4">
+        <button type="submit" class="btn btn-dark rounded-3">View All Products</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="category" class="padding-medium">
+    <div class="container-fluid">
+      <div class="row px-md-5">
+
+        <div class="col-md-4 position-relative">
+          <div class="z-1 position-absolute bottom-0 start-0 m-3 mg-lg-5 ps-4 text-white">
+            <h5 class="text-light text-uppercase">Printed T-Shirts</h5>
+          </div>
+          <div class="image-holder zoom-effect">
+            <a href="single-post.html">
+              <img src="images/category1.jpg" alt="img" class="post-image img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative ">
+          <div class="z-1 position-absolute bottom-0 start-0 m-3 mg-lg-5 ps-4 text-white">
+            <h5 class="text-light text-uppercase">Mono T-Shirts</h5>
+          </div>
+          <div class="image-holder zoom-effect">
+            <a href="single-post.html">
+              <img src="images/category3.jpg" alt="img" class="post-image img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <div class="z-1 position-absolute bottom-0 start-0 m-3 mg-lg-5 ps-4 text-white">
+            <h5 class="text-light text-uppercase">Graphic Hoodies</h5>
+          </div>
+          <div class="image-holder zoom-effect">
+            <a href="single-post.html">
+              <img src="images/category2.jpg" alt="img" class="post-image img-fluid">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="register" style="background-image:url(images/background-img.jpg);">
+    <div class="container padding-medium">
+      <div class="row banner-content align-items-center">
+        <div class="col-md-4 offset-md-1">
+          <h2 class="register-text text-white mt-3">Get <span> <em>20% OFF</em> </span> on your first purchase</h2>
+          <p class="mb-4">Sign Up for our newsletter and never miss any offers</p>
+        </div>
+        <div class="col-md-4 offset-md-1">
+          <form>
+            <div class="mb-3">
+              <input type="email" class="form-control form-control-lg rounded-3" name="email" id="email"
+                placeholder="Enter Your Email Address">
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-dark btn-lg rounded-3">Register it now</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-black">
+    <div class="container padding-medium pt-5">
+      <div class="row mt-5">
+        <div class="col-md-4 offset-md-1">
+          <div class="footer-menu">
+            <img src="images/logo-dark.png" alt="logo">
+            <div class="social-links mt-4">
+              <ul class="d-flex list-unstyled gap-3">
+                <li class="social">
+                  <a href="#">
+                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:facebook-fill"></iconify-icon>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#">
+                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:twitter-fill"></iconify-icon>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#">
+                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:pinterest-fill"></iconify-icon>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#">
+                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:instagram-fill"></iconify-icon>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#">
+                    <iconify-icon class="social-icon fs-5 text-white me-4" icon="ri:youtube-fill"></iconify-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer-menu">
+            <h6 class="text-uppercase fw-bold text-white mb-4">Quick Links</h6>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item">
+                <a href="#" class="footer-link">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">About us</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Offer </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Services</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Conatct Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer-menu">
+            <h6 class="text-uppercase fw-bold text-white mb-4">About</h6>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item">
+                <a href="#" class="footer-link">How It Work</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Our Packages</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">promotions</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">refer a friend</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer-menu">
+            <h6 class="text-uppercase fw-bold text-white mb-4">Help Center</h6>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item">
+                <a href="#" class="footer-link">Payments</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Shipping</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Product returns </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">FAQs</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">Checkout</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="footer-link">other Issues</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="footer-bottom" class="bg-black">
+    <hr class="m-0">
+    <div class="container padding-medium pt-3">
+      <div class="row mt-3">
+        <div class="col-md-6 copyright">
+          <p class="secondary-font">© 2023 UNICLUB. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="secondary-font">Free HTML Template by <a href="https://templatesjungle.com/" target="_blank"
+              class="text-decoration-underline fw-bold text-white-50"> TemplatesJungle</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 
 </html>
